@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+.portada {
+
+    height: 10rem;
+    background-image: url(../img/yoga.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+footer {
+
+    height: 8rem;
+    background-color: #a4e9ed;
+
+}
+
+.divFooter {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 8rem;
+
+}
+
+.divMail {
+
+    text-align: center;
+    margin-top: 2rem;
+    
+} 
+
+.divRedes {
+
+    text-align: center;
+    margin-top: 2rem;
+
+} 
+
+h1 {
+
+   font-size: 2.5rem;
+   font-family: 'Julius Sans One', sans-serif;
+
+} 
+
+.card {
+
+    font-family: 'Noto Serif JP', serif;
+    text-align: center;
+   
+}
+
+h5 {
+
+   font-family: 'Noto Serif JP', serif;
+  
+}
+
+h3 {
+
+    font-family: 'Noto Serif JP', serif;
+
+}
+
+h4 {
+
+    font-family: 'Baskervville', serif;
+    font-size: 16px;
+
+}
+
+@media only screen and (min-width: 250px) {
+
+    #offcanvasRight {
+
+      width: 16rem;
+    
+    }
+
+    h5 {
+
+      font-size: 16px;
+
+    }
+
+}
+
+@media only screen and (min-width: 360px) {
+
+    #offcanvasRight {
+
+       width: 19rem;
+    
+    }
+
+    h5 {
+
+      font-size: 17px;
+
+    }
+
+}
+
+@media only screen and (min-width: 400px) {
+
+    h1 {
+
+      font-size: 3rem;
+
+    }
+
+    .portada {
+
+       height: 12rem;
+
+    }
+
+    #offcanvasRight {
+
+       width: 21rem;
+    
+    }
+     
+    h5 {
+
+      font-size: 18px;
+
+    }
+
+}
+
+@media only screen and (min-width: 700px) {
+
+    h1 {
+
+      font-size: 4rem;
+
+    }
+
+    .portada {
+
+       height: 13.5rem;
+
+    }
+
+    #offcanvasRight {
+
+        width: 21rem;
+    
+    }
+
+    h5 {
+
+      font-size: 19px;
+
+    }
+
+    h4 {
+
+      font-size: 19px;
+    
+    }
+
+}
+ 
+@media only screen and (min-width: 1400px) {
+
+    h1 {
+
+      font-size: 4.5rem;
+
+    }
+
+    .portada {
+
+        height: 15rem;
+
+    }
+
+    .carro {
+
+        height: 2.3rem;
+        width: 2.3rem;
+        
+    } 
+
+    .boton {
+
+        height: 3.2rem;
+        width: 3.7rem;
+
+    }
+
+    #offcanvasRight {
+
+        width: 27rem;
+    
+    }
+
+    h5 {
+
+      font-size: 20px;
+
+    }
+
+    h4 {
+
+        font-size: 23px;
+    
+    }
+
+}

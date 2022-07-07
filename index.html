@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+      <meta charset="UTF-8">
+
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <title>Yoga Store</title>
+
+       <!-- CSS DE BOOTSTRAP -->
+
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+       <!-- MI CSS -->
+
+       <link rel="stylesheet" href="css/style.css">
+
+    </head>
+
+    <body>
+       
+      <header>
+
+          <!-- BOTON COMPRAR -->
+
+          <button class="btn btn-black boton" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" 
+          aria-controls="offcanvasRight"><svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" fill="currentColor" class="bi bi-cart2 carro" viewBox="0 0 16 16">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/></svg>
+          </button>
+
+          <!-- CARRITO DE COMPRAS -->
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+
+                <div class="offcanvas-header">
+
+                  <h5 class="offcanvas-title" id="offcanvasRightLabel">CARRITO DE COMPRAS</h5>
+
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+                </div>
+                
+                 <div><h3 class="text-center">Total: $<span class="visualTotal">0</span></h3></div>
+
+                 <div class="offcanvas-body innerCart "></div>
+
+              <div class="row cartBtns">
+
+                <button type="button" class="btn btn-outline-dark checkout">Finalizar Compra</button>
+
+                <button type="button" class="btn btn-outline-dark emptycar">Vaciar Carrito</button>
+
+            </div>
+                
+      </header>
+
+      <main>
+
+          <!-- FOTO PORTADA -->
+
+            <div class="portada">
+
+              <h1>YOGA STORE</h1>
+
+            </div>
+
+          <!-- CARDS -->
+
+          <div class="container-fluid">
+
+            <div class="row generalContainer">
+
+              <div class="col-12 productsContainer">
+
+                <div class="row cards"></div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+      </main>
+       
+      <footer>
+
+          <div class="divFooter">
+
+            <div class="divRedes">
+
+              <h4>REDES SOCIALES</h4>
+
+                <a href="https://www.instagram.com"><img src="img/instagram.png" alt="Instagram" width="30" height="30"></a>
+        
+                <a href="https://api.whatsapp.com"><img src="img/whatsappLogo.png" alt="Whatsapp" width="30" height= "28"></a>
+
+            </div>
+
+              <div class="divMail">
+
+                <h4>NEWSLETTER</h4>
+
+                <a href="mailto:yogastore@gmail.com"><img src="img/mail.png" alt="Mail" width="33" height="33" ></a> 
+
+              </div>
+
+          </div>
+        
+      </footer>
+
+      <!-- SWEETALERT -->
+
+       <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+      <!-- JS DE BOOTSTRAP -->
+
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+      <!-- JS --> 
+      
+       <script src="js/main.js" type="module"></script>
+      
+    </body>
+
+    </html>
